@@ -9,6 +9,7 @@ def find_min_in_nested_arrays(src)
       unless src[row_index][element_index] == nil
         if src[row_index][element_index] < smallest_numbers[row_index]
           smallest_numbers[row_index] = src[row_index][element_index]
+          puts smallest_numbers[row_index]
         end
       end
       element_index += 1
